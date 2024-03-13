@@ -1,0 +1,17 @@
+/* src/index.css */
+body.light {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  /* weitere Light-Mode-Stile */
+}
+
+body.dark {
+  --background-color: #1f1f1f;
+  --text-color: #ffffff;
+  /* weitere Dark-Mode-Stile */
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
